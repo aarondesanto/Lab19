@@ -6,10 +6,6 @@ app.config(function($routeProvider) {
       templateUrl: 'view1.html',
       controller: 'mainController'
     })
-    .when('/view2', {
-      templateUrl: 'view2.html',
-      controller: 'altController'
-    })
     .otherwise({
       templateUrl: 'view1.html',
       controller: 'mainController'

@@ -3,7 +3,7 @@ var app = angular.module('myModule');
 app.directive('posts', function() {
   return {
     restrict: 'E',
-    template: '<post ng-repeat="post in posts" />',
-    replace: true
+    template: '<post class="post" ng-repeat="post in posted" />',
+    replace: false
   }
 });
