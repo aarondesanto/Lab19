@@ -1,9 +1,9 @@
 var app = angular.module('myModule');
 
-app.directive('posts', function() {
+app.directive('post', function() {
   return {
     restrict: 'E',
-    template: '<post ng-repeat="post in posts" />',
+    templateUrl: 'post.html',
     replace: true
   }
 });
